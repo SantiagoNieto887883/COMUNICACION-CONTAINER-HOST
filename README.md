@@ -71,3 +71,13 @@ Connecting to localhost:8888 ([::1]:8888)
 wget: can't connect to remote host: Connection refused
 
 ```
+
+# 3.4 # 7. Limpieza:
+
+```bash
+
+docker stop host-server
+docker rm host-server
+docker system prune -a (opcional)
+
+```
